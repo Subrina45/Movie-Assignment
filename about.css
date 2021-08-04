@@ -1,0 +1,41 @@
+h2 {
+    color:darkcyan;
+    text-decoration: darkmagenta;
+}
+ul {
+    color:darkseagreen;
+    border: darkturquoise;
+    padding: 50px;
+}
+img:hover {
+    opacity: 0.8;
+}
+div{
+    background-color: cadetblue;
+    padding: 20%;
+}
+div.first {
+    opacity: 0.1;
+}
+div.second {
+    opacity: 0.3;
+}
+div.third {
+    opacity: 0.6;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: palegreen;
+    min-width: 160px;
+    box-shadow: 0px 10px 16px 0px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
